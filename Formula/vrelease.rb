@@ -1,5 +1,3 @@
-require 'formula'
-
 class Vrelease < Formula
   desc 'kiss solution to easily create project releases'
   homepage 'https://github.com/vrelease'
