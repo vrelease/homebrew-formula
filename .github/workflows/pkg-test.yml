@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Tap repository
-        run: brew tap vrelease/formulas
+        run: brew tap vrelease/formula
 
       - name: Install vrelease
         run: brew install vrelease
