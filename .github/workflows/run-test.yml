@@ -1,0 +1,34 @@
+name: run-test
+
+on:
+  push:
+    branches:
+      - "*"
+    tags:
+      - "*"
+    paths-ignore:
+      - "**.md"
+  pull_request:
+    branches:
+      - "*"
+    tags:
+      - "*"
+    paths-ignore:
+      - "**.md"
+
+jobs:
+  run-test:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout to vrelease-formula
+        uses: actions/checkout@v2
+
+      - name: Install formula from source
+        run: brew install --build-from-source Formula/vrelease.rb
+
+      - name: Run vrelease (version)
+        run: vrelease -v
+
+      - name: Run vrelease (help)
+        run: vrelease -h
