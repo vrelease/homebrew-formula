@@ -3,8 +3,8 @@ class Vrelease < Formula
   homepage 'https://github.com/vrelease'
   license 'CC0-1.0'
 
-  url 'https://github.com/vrelease/vrelease/releases/download/v0.2.0/vrelease-macos'
-  sha256 'bdfbd546dc28d2f37f86ee2fb12dc5339306640bb350a2fa9dc013f26b21ac6a'
+  url 'https://github.com/vrelease/vrelease/releases/download/v0.3.0/vrelease-macos'
+  sha256 'e7d11ddd2e705a0730dbcdc6e70a2e9d3dc5ca3715a3ad6178d5bcdee6b19947'
 
   def install
     bin.install 'vrelease-macos' => 'vrelease'
