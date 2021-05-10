@@ -12,7 +12,7 @@
 [tag-url]: https://github.com/vrelease/homebrew-formula/releases
 
 
-# `homebrew-formula`
+# `vrelease-homebrew-formula`
 
 <img src="icon.svg" height="240px" align="right"/>
 
