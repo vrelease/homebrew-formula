@@ -31,6 +31,18 @@ brew install vrelease
 [vrelease]: https://github.com/vrelease/vrelease
 
 
+## How can I use it?
+
+After the installation with `brew`, `vrelease` will be available at `PATH`.
+Simply:
+
+```sh
+vrelease -h
+```
+
+For instructions on how to use `vrelease`, [see this](https://github.com/vrelease/vrelease#how-can-i-use-it).
+
+
 ## License
 
 To the extent possible under law, [Caian Rais Ertl][me] has waived __all
